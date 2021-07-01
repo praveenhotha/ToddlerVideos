@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T17:03:32.124Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="NYz3fu_jab7zUXtAyyBw" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-01T17:33:35.398Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="86rlSwY0hRQT-dMsIbJZ" version="14.8.3" type="github">
   <diagram id="3eI7qkjUOED5z1ejcmnY" name="Page-1">
     <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -69,6 +69,87 @@
         </mxCell>
         <mxCell id="J6YCg41dYqRsLZ8GqPU7-19" value="Component Diagram" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="195" y="730" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-20" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.management_console;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="880" width="63" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-21" value="Players" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="950" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-22" value="Cloudfront" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudfront;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="880" width="50" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-23" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.route_53;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="880" width="50" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-25" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="830" width="55" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-26" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="750" width="55" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-27" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="900" width="55" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-28" value="API Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="883" width="61.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-29" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="980" width="55" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-31" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" source="J6YCg41dYqRsLZ8GqPU7-28" target="J6YCg41dYqRsLZ8GqPU7-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="860" as="sourcePoint" />
+            <mxPoint x="450" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-32" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.145;entryY=0.855;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J6YCg41dYqRsLZ8GqPU7-28" target="J6YCg41dYqRsLZ8GqPU7-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="870" as="sourcePoint" />
+            <mxPoint x="450" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-33" value="/api/game/{action}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="800" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-34" value="/api/number/{gameid}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="880" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-35" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J6YCg41dYqRsLZ8GqPU7-28" target="J6YCg41dYqRsLZ8GqPU7-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="870" as="sourcePoint" />
+            <mxPoint x="450" y="820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-36" value="/api/validate/{gameid}/{userid}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="943" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-37" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.145;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="J6YCg41dYqRsLZ8GqPU7-28" target="J6YCg41dYqRsLZ8GqPU7-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="1050" as="sourcePoint" />
+            <mxPoint x="330" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-38" value="/api/user" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1030" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-39" value="Elasticache" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elasticache;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="850" width="67.5" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-40" value="Route 53" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="950" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-41" value="DynamoDB" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="840" width="72" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-42" value="1. Once logged in, user can start the game or join the game&lt;br&gt;2. Game starter has the option to end the game&lt;br&gt;3. Game starter can generate the next no.&lt;br&gt;4. Assuming all the general rules of housie apply(fast 5, 1st line, 2nd line, 3rd line and houseful&lt;br&gt;5. Gam player can view the list of games and join&lt;br&gt;6. Game player has options to notify the admin about their state&lt;br&gt;7. Assuming the validation of line completion is manual here." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="10" width="520" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="J6YCg41dYqRsLZ8GqPU7-43" value="/api/token/{gameid}" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="680" width="55" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
