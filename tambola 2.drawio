@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T18:53:39.528Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="YB3fg9MgfhgFBFgqMk8V" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-01T18:55:35.154Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="bfRLpqJ0jmUYpVpOy-5F" version="14.8.3" type="github">
   <diagram id="8wIz6sM05B-2kPVRudT9" name="Page-1">
     <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
         <mxCell id="UCDsYJrtJyf6KCuDWZyP-31" value="/api/game/add - new game&lt;br&gt;/api/user/add/{gameid}&lt;br&gt;/api/token/{gameid}/{userid}&lt;br&gt;/api/game/number/{gameid}&lt;br&gt;/api/game/validate/{gameid}/{userid}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="680" y="700" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="UCDsYJrtJyf6KCuDWZyP-32" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="UCDsYJrtJyf6KCuDWZyP-32" value="RDS" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="830" y="880" width="72" height="81" as="geometry" />
         </mxCell>
         <mxCell id="UCDsYJrtJyf6KCuDWZyP-33" value="EC2 with NodeJS" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
